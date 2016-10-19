@@ -1,0 +1,14 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.artifexdigital.android.fragmentpreferencesexample.DefaultPreferenceFragment"
+        android:title="First cluster of preferences"
+        android:summary="These will be sourced from the preference_cluster_1.xml file">
+        <extra android:name="fragprefresource" android:value="preference_cluster_1" />
+    </header>
+    <header
+        android:fragment="com.artifexdigital.android.fragmentpreferencesexample.DefaultPreferenceFragment"
+        android:title="Second cluster of preferences"
+        android:summary="from preference_cluster_2.xml, and you could add more">
+        <extra android:name="fragprefresource" android:value="preference_cluster_2" />
+    </header>
+</preference-headers>

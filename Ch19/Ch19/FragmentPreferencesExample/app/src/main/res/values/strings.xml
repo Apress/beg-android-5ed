@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentPreferencesExample</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="change_preferences">Change Preferences</string>
+
+</resources>

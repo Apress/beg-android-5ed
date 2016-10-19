@@ -1,0 +1,37 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="An example Preference Category subheading">
+        <CheckBoxPreference
+            android:key="checkbox1"
+            android:title="Checkbox Preference"
+            android:summary="A typical checkbox"
+            />
+        <CheckBoxPreference
+            android:key="checkbox2"
+            android:title="Checkbox Preference"
+            android:summary="Another checkbox"
+            />
+        <RingtonePreference
+            android:key="ringtone"
+            android:title="Ringtone Preference"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="Pick a tone, any tone"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Another subheading">
+        <EditTextPreference
+            android:key="text"
+            android:title="Text Entry Dialog for Preferences"
+            android:summary="Choose this to show a dialog for text entry"
+            android:dialogTitle="Enter your text value"
+            />
+        <ListPreference
+            android:key="list"
+            android:title="Selection Dialog"
+            android:summary="Choose this to show a list populated from an array to choose from"
+            android:entries="@array/colors"
+            android:entryValues="@array/color_codes"
+            android:dialogTitle="What is your favorite color?" />
+    </PreferenceCategory>
+</PreferenceScreen>

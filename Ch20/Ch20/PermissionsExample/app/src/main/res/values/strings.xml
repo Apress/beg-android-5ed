@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PermissionsExample</string>
+
+    <string name="hello_world">This is the big secret!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pe_see_hidden_desc">The PE See Hidden Data permission provides access to the super-secret text in the application.</string>
+</resources>

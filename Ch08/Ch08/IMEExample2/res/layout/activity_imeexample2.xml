@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IMEExample2" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+        <TableRow>    
+            <TextView    
+                android:text="No inputType:" />
+            <EditText />
+        </TableRow>
+        <TableRow>    
+            <TextView    
+                android:text="Date:" />
+            <EditText    
+                android:inputType="date" />
+        </TableRow>
+        <TableRow>    
+            <TextView 
+                android:text="Email address:" />
+            <EditText    
+                android:inputType="text|textEmailAddress"
+                android:imeOptions="actionSend" />
+        </TableRow>
+        <TableRow>    
+            <TextView 
+                android:text="Decimal number:" />
+            <EditText 
+                android:inputType="number|numberDecimal"
+                android:imeOptions="actionDone" />
+        </TableRow>
+        <TableRow>    
+            <TextView    
+                android:text="Multiline text:" />
+            <EditText    
+                android:inputType="text|textMultiLine|textAutoCorrect"
+                android:minLines="4"
+                android:gravity="top" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

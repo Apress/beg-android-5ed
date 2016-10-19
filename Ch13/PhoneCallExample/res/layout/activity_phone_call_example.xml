@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.artifexdigital.com.phonecallexample.PhoneCallExample" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:" />
+    
+    <EditText 
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/usedialintent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call with ACTION_DIAL"
+        android:onClick="callWithActionDialIntent" />
+    <Button
+        android:id="@+id/usecallintent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call with ACTION_CALL"
+        android:onClick="callWithActionCallIntent" />
+</LinearLayout>

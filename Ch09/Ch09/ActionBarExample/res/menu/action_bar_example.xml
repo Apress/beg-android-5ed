@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.artifexdigital.android.actionbarexample.ActionBarExampleActivity" >
+
+    <item android:id="@+id/setred"
+        android:title="Set Color Red"
+        android:icon="@drawable/ic_red"
+        android:showAsAction="always|withText"/>
+    <item android:id="@+id/setblue"
+        android:title="Set Color Blue"
+        android:icon="@drawable/ic_blue"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_menu_about_colors" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,5 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1415366007000 987314 9b6a9a9078af571732159b904ad423b03b7cc786 /usr/local/google/home/fuzz/workspace/appcompat_v7/libs/android-support-v4.jar
+1432637589000 987314 9b6a9a9078af571732159b904ad423b03b7cc786 /usr/local/google/home/fuzz/workspace/ActionBarExample/libs/android-support-v4.jar

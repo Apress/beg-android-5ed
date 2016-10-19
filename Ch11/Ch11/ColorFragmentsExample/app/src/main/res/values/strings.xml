@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ColorFragmentsExample</string>
+    <string name="title_color_detail">Color Detail</string>
+</resources>
